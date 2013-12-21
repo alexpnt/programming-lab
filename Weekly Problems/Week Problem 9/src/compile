@@ -1,0 +1,2 @@
+gcc scientist.c -o scientist -Wall -ansi
+ 
