@@ -64,8 +64,8 @@ Print the resulting matrix where <tt>1</tt> corresponds to <tt>true</tt> and
 
 **Input**:
 
-        2 0
-        3 6
+    2 0
+    3 6
 
 
 **Output**:
