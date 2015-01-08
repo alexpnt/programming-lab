@@ -30,6 +30,7 @@ A sequence of Yes or No on the output file.
 **Input**:
 
 > 3
+
 > ([])
 > (([()])))
 > ([()[]()])()
