@@ -1,6 +1,5 @@
 #  Problem A - Maze
 
-* * *
 
 ##  Problem
 
@@ -26,8 +25,8 @@ and '\' indicate diagonal paths.
 The moves in a path can be performed only between adjacent cells.
 The following pictures illustrate the moves that can be performed. 
 
-     \\|/  	\/    |	
-      |	   /\	/|\	               	  	        
+     \|/  \/    |	
+      |	  /\   /|\	               	  	        
 
 In this maze there is only one path that goes through the positions 
 (1,4),(2,3),(3,2),(4,3), since the diagonal path segments in (2,5) 
@@ -42,7 +41,6 @@ any maze), and there are no cycles in the paths. The path, if it
 exists, has no upwards moves, i.e., from each step of the path to the
 next you always either stay on the same row or go down to the row below.
 
-* * *
 
 ##  Input
 
@@ -50,7 +48,6 @@ The first line of the input file contains the number of rows (R) and columns (C)
 From the second line onwards you have the maze as shown in the example above. 
 Other test cases may follow.
 
-* * *
 
 ##  Output
 
@@ -58,13 +55,11 @@ For each test case, print the sequence of matrix cells corresponding to the path
 cross the garden, or **No Path!** if there is no path across the garden.
 You cannot go outside the lateral frontiers of the maze.
 
-* * *
 
 ##  Constraints
 
 1 ≤ R ≤ 100 and 1 ≤ C  ≤ 100.
 
-* * *
 
 ##  Example
 
