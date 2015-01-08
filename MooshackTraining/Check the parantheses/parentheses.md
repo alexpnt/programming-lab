@@ -35,6 +35,7 @@ A sequence of Yes or No on the output file.
 > (([()])))
 > ([()[]()])()
 > 
+
 **Ouput**:
 
 > Yes
