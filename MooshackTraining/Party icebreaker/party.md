@@ -35,24 +35,38 @@ The output for each test case consists of a single line saying "Fair" if the gam
 **Example input:**
 
 > 8
+
 > -1
+
 > 3
+
 > 5
+
 > -2
+
 > 6
+
 > 2
+
 > -5
+
 > 7
+
 > 0
+
 > 4
+
 > -1
+
 > -2
+
 > 1
+
 > 2
+
 > 0
 > 
 
-* * *
 
 **Example output:**
 
