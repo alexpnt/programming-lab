@@ -25,7 +25,6 @@ visited by the _n_ knights.
 > 3 3 3
 > 4 4 3
 
-* * *
 
 **Example output:**
 
