@@ -26,8 +26,8 @@ and '\' indicate diagonal paths.
 The moves in a path can be performed only between adjacent cells.
 The following pictures illustrate the moves that can be performed. 
 
-     \\|/  	\/    |	
-      |	   /\	/|\	               	  	        
+     \|/  \/    |	
+      |	  /\   /|\	               	  	        
 
 In this maze there is only one path that goes through the positions 
 (1,4),(2,3),(3,2),(4,3), since the diagonal path segments in (2,5) 
