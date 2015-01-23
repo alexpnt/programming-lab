@@ -29,18 +29,13 @@ A sequence of Yes or No on the output file.
 
 **Input**:
 
-> 3
-
-> ([])
-> (([()])))
-> ([()[]()])()
-> 
+    3
+    ([])
+    (([()])))
+    ([()[]()])()
 
 **Ouput**:
 
-> Yes
-
-> No
-
-> Yes
-> 
+    Yes
+    No
+    Yes
