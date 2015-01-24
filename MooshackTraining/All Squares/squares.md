@@ -26,9 +26,9 @@ Output will consist of a series of lines, one for each line of the input. Each l
 
 ####Sample input
 
->500 113 941
->0 0 0
+    500 113 941
+    0 0 0
 
 ####Sample output
 
->  5
+    5
