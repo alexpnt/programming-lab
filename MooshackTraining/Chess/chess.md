@@ -19,13 +19,14 @@ visited by the _n_ knights.
 
 ##  Example
 **Example input**
-> 4
-> -1 -1 2
-> 2 2 1
-> 3 3 3
-> 4 4 3
+
+    4
+    -1 -1 2
+    2 2 1
+    3 3 3
+    4 4 3
 
 
 **Example output:**
 
-> 155
+    155
