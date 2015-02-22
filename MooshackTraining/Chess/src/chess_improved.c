@@ -128,8 +128,11 @@ int test(int x,int y,int n){
 		counter++;
 		return 1;
 	}
-	else{
+	else if(board[x][y]>=n)
 		return 0;
+	else{
+		board[x][y]=n;
+		return 1;
 	}
 
 	return 0;
