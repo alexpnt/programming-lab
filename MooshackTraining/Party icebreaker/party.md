@@ -55,6 +55,5 @@ The output for each test case consists of a single line saying "Fair" if the gam
 
 **Example output:**
 
-> Fair
-> Rigged
-> 
+    Fair
+    Rigged
