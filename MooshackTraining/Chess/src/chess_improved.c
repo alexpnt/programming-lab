@@ -44,8 +44,8 @@ void explore(int x,int y,int n){
 		switch(i){
 			case 0:{
 				if(n>0){
-					if(test(x-2,y-1,n))
-						explore(x-2,y-1,n-1);
+					test(x-2,y-1,n);
+					explore(x-2,y-1,n-1);
 				}
 				else
 					return;
@@ -53,8 +53,8 @@ void explore(int x,int y,int n){
 			}
 			case 1:{
 				if(n>0){
-					if(test(x-2,y+1,n))
-						explore(x-2,y+1,n-1);
+					test(x-2,y+1,n);
+					explore(x-2,y+1,n-1);
 				}
 				else
 					return;
@@ -62,8 +62,8 @@ void explore(int x,int y,int n){
 			}
 			case 2:{
 				if(n>0){
-					if(test(x-1,y-2,n))
-						explore(x-1,y-2,n-1);
+					test(x-1,y-2,n);
+					explore(x-1,y-2,n-1);
 				}
 				else
 					return;
@@ -71,8 +71,8 @@ void explore(int x,int y,int n){
 			}
 			case 3:{
 				if(n>0){
-					if(test(x-1,y+2,n))
-						explore(x-1,y+2,n-1);
+					test(x-1,y+2,n);
+					explore(x-1,y+2,n-1);
 				}
 				else
 					return;
@@ -80,8 +80,8 @@ void explore(int x,int y,int n){
 			}
 			case 4:{
 				if(n>0){
-					if(test(x+1,y-2,n))
-						explore(x+1,y-2,n-1);
+					test(x+1,y-2,n);
+					explore(x+1,y-2,n-1);
 				}
 				else
 					return;
@@ -89,8 +89,8 @@ void explore(int x,int y,int n){
 			}
 			case 5:{
 				if(n>0){
-					if(test(x+1,y+2,n))
-						explore(x+1,y+2,n-1);
+					test(x+1,y+2,n);
+					explore(x+1,y+2,n-1);
 				}	
 				else
 					return;
@@ -98,8 +98,8 @@ void explore(int x,int y,int n){
 			}
 			case 6:{
 				if(n>0){
-					if(test(x+2,y-1,n))
-						explore(x+2,y-1,n-1);
+					test(x+2,y-1,n);
+					explore(x+2,y-1,n-1);
 				}
 				else
 					return;
@@ -107,8 +107,8 @@ void explore(int x,int y,int n){
 			}
 			case 7:{
 				if(n>0){
-					if(test(x+2,y+1,n))
-						explore(x+2,y+1,n-1);
+					test(x+2,y+1,n);
+					explore(x+2,y+1,n-1);
 				}
 				else
 					return;
@@ -128,13 +128,6 @@ int test(int x,int y,int n){
 		counter++;
 		return 1;
 	}
-	else if(board[x][y]>=n)
-		return 0;
-	else{
-		board[x][y]=n;
-		return 1;
-	}
-
-	return 0;
+	return 1;
 }
 
