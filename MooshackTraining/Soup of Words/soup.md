@@ -17,7 +17,8 @@ Input consists of strings (one per line) each of which will consist of one to tw
 ##Output
 
 For each morphing you should print all the words in the correct order to convert the first one in the morphed one
-Sample Input:
+
+##Sample Input:
 
     6 5
     remar
@@ -33,7 +34,7 @@ Sample Input:
     pita
     pisa
 
-Sample Ouput:
+##Sample Ouput:
 
     remar
     remas
