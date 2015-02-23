@@ -1,8 +1,3 @@
-/*
-A new chess game LPA 2013, improved version
-
-by Alexandre Pinto
-*/
 #include <stdio.h>
 #include <stdlib.h>
 
