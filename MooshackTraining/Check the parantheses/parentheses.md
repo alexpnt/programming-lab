@@ -1,4 +1,4 @@
-#  Problem C - Check the parentheses! 
+#  Check the parentheses! 
 
 ##  Description
 
