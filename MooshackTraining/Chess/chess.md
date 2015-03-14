@@ -1,4 +1,4 @@
-# Problem A - A new chess game
+# A new chess game
 
 ## Description
 
