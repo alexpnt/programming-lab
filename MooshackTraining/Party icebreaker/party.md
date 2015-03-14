@@ -1,4 +1,4 @@
-#  Problem B - Party icebreaker
+#  Party icebreaker
 
 
 ###  Description
