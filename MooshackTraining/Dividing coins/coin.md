@@ -15,7 +15,7 @@ Given a bag with a maximum of 100 coins, determine the most fair division betwee
 
 A line with the number of problems n, followed by n times:
 
-    a line with a non negative integer m ($m \le 100$) indicating the number of coins in the bag
+    a line with a non negative integer m (m <= 100) indicating the number of coins in the bag
     a line with m numbers separated by one space, each number indicates the value of a coin. 
 
 ##Output
