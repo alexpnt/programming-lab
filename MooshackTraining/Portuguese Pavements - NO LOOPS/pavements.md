@@ -1,4 +1,4 @@
-###  Problem B - Portuguese Pavements - NO LOOPS 
+###  Portuguese Pavements - NO LOOPS 
 
 ###  Problem
 
