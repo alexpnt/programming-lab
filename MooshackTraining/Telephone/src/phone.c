@@ -1,3 +1,9 @@
+/*
+Telephone LPA 2013
+
+by Alexandre Pinto
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
