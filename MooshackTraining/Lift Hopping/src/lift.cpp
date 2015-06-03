@@ -1,3 +1,8 @@
+/*
+Lift Hopping! LPA 2013
+by Alexandre Pinto
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include <limits.h>
